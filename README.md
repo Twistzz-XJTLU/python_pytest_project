@@ -66,7 +66,7 @@ pytest
 - pytest.ini ====>> pytest配置文件
 - requirements.txt ====>> 相关依赖包文件
 
-![9245690a31090275cd1122ef478ab34.png](https://github.com/Twistzz-XJTLU/pic/blob/main/9245690a31090275cd1122ef478ab34.png?raw=true)
+![pic1](https://cdn.staticaly.com/gh/Twistzz-XJTLU/picx-images-hosting@master/20230705/9245690a31090275cd1122ef478ab34.4xrvqflykck0.webp)
 
 ## 测试报告效果展示
 
