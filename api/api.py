@@ -14,6 +14,7 @@ def mobile_query(params):
     return result
 
 
+
 def test_json(json_data):
     """
     这个方法测试json传参
