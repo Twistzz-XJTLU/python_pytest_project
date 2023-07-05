@@ -47,26 +47,34 @@ pytest
   - 配置host(测试域名)和mysql的相关信息
 
 - core ====>> requests请求方法封装、关键字返回结果类
-- data ====>> 测试用例数据
-- log  ====>> 日志
+- data ====>> 测试用例数据 
+  - yaml格式
+
+- log  ====>> 存放日志文件夹
 - message  ====>> 发送消息到钉钉/企业微信（需重新配置webhooks）
-- report ====>> 测试报告文件夹
-- test_requests/testcase ====>> 练习的用例
-- testcases ====>> 项目的测试用例
+- report ====>> 存放测试报告文件夹
+- testcases ====>> 测试用例
+  - goodscenter 有关商品的测试用例
+  - usercenter 有关用户的测试用例
+
 - utils ====>> 工具类
+  - 日志
+  - 读取yaml中的数据
+  - 响应处理
+  - 
+
 - pytest.ini ====>> pytest配置文件
 - requirements.txt ====>> 相关依赖包文件
 
-## 项目效果
-
-目前该框架在企业中完全是可以运用的，简单易上手。不过项目还没有做到只写测试用例，不写代码进行自动化测试。框架还是有进一步的优化空间，这个千人千面。如果想做的更完美，可以继续优化。
+![9245690a31090275cd1122ef478ab34.png](https://github.com/Twistzz-XJTLU/pic/blob/main/9245690a31090275cd1122ef478ab34.png?raw=true)
 
 ## 测试报告效果展示
 
 在命令行执行命令：```pytest``` 运行用例后，会得到一个测试报告的原始文件，但这个时候还不能打开成HTML的报告，还需要在项目根目录下，执行命令启动 ```allure``` 服务：
 
 ```
-# 需要提前配置allure环境，才可以直接使用命令行
+pytest #进行pytest 
+
 allure serve ./report
 ```
 
