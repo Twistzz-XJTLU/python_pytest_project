@@ -3,7 +3,7 @@ import os
 import requests
 from jenkins import Jenkins
 
-jenkins_url = "http://192.168.4.3:8080/"
+jenkins_url = "http://127.0.0.1:8080/"
 server = Jenkins(jenkins_url, username='admin', password='123456')
 job_name = "job/ApiTest"
 job_url = server.get_info(job_name)['url']
