@@ -5,7 +5,7 @@ from jenkins import Jenkins
 
 jenkins_url = "http://127.0.0.1:8080/"
 server = Jenkins(jenkins_url, username='admin', password='123456')
-job_name = "job/ApiTest"
+job_name = "job/python_pytest"
 job_url = server.get_info(job_name)['url']
 job_last_number = server.get_info(job_name)['lastBuild']['number']
 report_url = job_url + str(job_last_number) + '/allure'
