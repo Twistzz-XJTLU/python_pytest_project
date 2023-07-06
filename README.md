@@ -80,6 +80,11 @@ allure serve ./report
 
 
 
+## 测试报告
+
+![](https://cdn.staticaly.com/gh/Twistzz-XJTLU/picx-images-hosting@master/20230706/屏幕截图-2023-07-06-092208.6mg0d0uozjk0.webp)
+
+![](https://cdn.staticaly.com/gh/Twistzz-XJTLU/picx-images-hosting@master/20230706/屏幕截图-2023-07-06-092233.5zgeszewbv8.webp)
 
 
 通过os.environ的方式进行token的共享
